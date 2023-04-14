@@ -26,7 +26,7 @@ p = game:GetService("Players").LocalPlayer
 
                 p.Chatted:Connect(function(functionhere)
     if functionhere:lower() == (functionhere) then 
-Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = (functionhere)
+print(functionhere)
     end
  end)
                 end
