@@ -17,7 +17,7 @@ function swagnames()
         if table.find(ModIDS, Player.UserId) then
             if Player.Character then
                 if Player.Character.Parent.Name == 'Players' then
-                    Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('nigger')
+                    -- do nothing
                 end
             end
         else
