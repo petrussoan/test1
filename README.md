@@ -13,7 +13,7 @@ ModIDS = {
 
 }
 
-p = game:GetService("Players").LocalPlayer
+
 
 
 function swagnames()
@@ -21,7 +21,9 @@ function swagnames()
         if table.find(ModIDS, Player.UserId) then
             if Player.Character then
                 if Player.Character.Parent.Name == 'Players' then
-                    
+
+p = game:GetService("Players").LocalPlayer                    
+
                 p.Chatted:Connect(function(functionhere)
     if functionhere:lower() == (functionhere) then 
 Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = (functionhere)
