@@ -23,7 +23,7 @@ function swagnames()
                 if Player.Character.Parent.Name == 'Players' then
                     
                 p.Chatted:Connect(function(functionhere)
-    if functionhere:lower() == (functionhere) then 
+    if functionhere:lower() == (functionhere) then
 print(functionhere)
     end
  end)
