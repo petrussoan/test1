@@ -10,6 +10,15 @@ ModIDS = {
 28346134,
 3022807122,
 150462379,
+253440346,
+3506288409,
+1299689330,
+1375503910,
+1763594535,
+1659359580,
+399974968,
+4084354880,
+1864447262,
 
 }
 function swagnames()
@@ -17,7 +26,7 @@ function swagnames()
         if table.find(ModIDS, Player.UserId) then
             if Player.Character then
                 if Player.Character.Parent.Name == 'Players' then
-                    -- do nothing
+                    Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('nigger')
                 end
             end
         else
